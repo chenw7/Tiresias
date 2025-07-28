@@ -16,11 +16,11 @@ We discovered that Niki's summary spreadsheet **did not distinguish between NaN 
 
 ## 03_raw_binary_model
 Retraining of the binary classification model using the corrected raw data and updated labels. This version reflects improved data integrity and model performance.
-**Best Model: XGBoost
-- Accuracy: 97.6%
-- Precision: 91.9%
-- Recall: 92.6%
-- F1 Score: 92.2%**
+**Best Model: XGBoost**
+**- Accuracy: 97.6%**
+**- Precision: 91.9%**
+**- Recall: 92.6%**
+**- F1 Score: 92.2%**
 
 ## 04_site_model
 Once problematic test parameters are flagged, we identify the specific test sites responsible using an unsupervised Isolation Forest model.
