@@ -28,5 +28,5 @@ Performance Highlights:
 - Successfully identified all problematic sites for **97% of flagged test parameters**.
 - For the remaining 3%, the model uncovered labeling inconsistencies, suggesting potential human judgment errors.
 
-## pkl files
-All .pkl files in this repository are pre-trained models and are ready for download and integration into other projects. These files allow for quick deployment without retraining.
+## joblib files
+All .joblib files in this repository are pre-trained models and are ready for download and integration into other projects. These files allow for quick deployment without retraining.
