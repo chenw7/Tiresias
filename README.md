@@ -1,11 +1,10 @@
-# Post-Silicon Test Data Anomaly Detection
+# Semiconductor Wafer Test Data Anomaly Detection
 This project develops an anomaly detection system using Python to identify drifting behavior in post-silicon test data. The system helps engineers flag problematic test parameters and pinpoint the test sites responsible for anomalies, improving the accuracy and efficiency of post-silicon validation.
 
 ## 01_initial_model
 Initial development of machine learning models using Niki's summary spreadsheet, which includes labels for whether each test parameter should be investigated/released.
 - Input: Median and standard deviation of each test parameter across 192 test sites
 - Output: Predicts whether a parameter should be labeled as investigate or release
-- Best Model: **XGBoost with 96.9% accuracy**, outperforming Random Forest, LightGBM, and Decision Tree
 
 ## 02_raw_data_processing
 We discovered that Niki's summary spreadsheet **did not distinguish between NaN and 0 values**. Both were treated as 0. This misrepresentation was corrected by referencing the raw data and **automating the preprocessing pipeline** to preserve the distinction.
