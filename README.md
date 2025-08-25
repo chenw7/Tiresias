@@ -18,7 +18,7 @@ Performance Highlights:
 - Successfully identified all problematic sites for **97% of flagged test parameters**.
 - For the remaining 3%, the model uncovered labeling inconsistencies and pointed out several human judgement errors.
 
-## 04_site_model
+## 05_EY_script
 Combined all data preprocessing, feature augmentation, and model prediction processes into one single script that could be uploaded into Exensio-MA for quick deployment.
 
 ## joblib files
